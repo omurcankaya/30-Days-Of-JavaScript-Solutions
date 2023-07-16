@@ -61,15 +61,20 @@ const users = {
         points: 40
     }
 }
-
-let count = 0;
+// 2.2
+let countPoints = 0;
+let countLoggedIn = 0;
 for (user of Object.keys(users)) {
     if (users[user].points >= 50) {
-        count += 1;
+        countPoints += 1;
+    }
+    if (users[user].isLoggedIn) {
+        countLoggedIn+=1;
     }
 }
-console.log(`${count} users have 50 point or greater.`);
+console.log(`${countPoints} users have 50 point or greater. ${countLoggedIn} users logged in!`);
 
+// 2.3
 for (user of Object.keys(users)) {
     if (users[user].skills.includes('MongoDB') &&
         users[user].skills.includes('React') &&
@@ -78,13 +83,29 @@ for (user of Object.keys(users)) {
         console.log(user);
     }
 }
+// 2.4
+const newUsers = { ...users };
+const newUser = {
+    Omur: {
+        email: 'omurcankaya@protonmail.com',
+        skills: ['HTML', 'CSS', 'JavaScript'],
+        age: 21,
+        isLoggedIn: false,
+        points: 100
 
+    }
+};
+Object.assign(newUsers, newUser);
+console.log(newUsers);
+
+// 2.5 -- 2.6
 for ([key, value] of Object.entries(users)) {
     for ([secondKey, value] of Object.entries(users[key])) {
-        console.log(`${secondKey}: ${value}`)
+        console.log(`${secondKey}: ${value}`) // it returns both keys and values.
     }
 }
 
+// 2.7
 const countries = {
     Turkey: {
         capital: 'Ankara',
@@ -104,7 +125,10 @@ for ([key, value] of Object.entries(countries)) {
     }
 }
 
+// Exercise 3
 
+
+// 3.1
 const personAccount = {
     firstName: 'Ömürcan',
     lastName: 'Kaya',
@@ -141,7 +165,7 @@ const personAccount = {
 personAccount.accountBalance();
 personAccount.accountInfo();
 
-// Exercise 3
+// 3.2
 const users2 = [
     {
         _id: 'ab12ex',
@@ -249,14 +273,15 @@ const authMethods = {
     }
 }
 
+// 3.4
 const reactionMethods = {
     likePost: function (productId) {
         for (let i = 0; i < products.length; i++) {
             if (products[i]._id === productId) {
-                if(products[i].likes.includes(myActiveUserId)){
-                    products[i].likes.splice(products[i].likes.indexOf(myActiveUserId),1)
+                if (products[i].likes.includes(myActiveUserId)) {
+                    products[i].likes.splice(products[i].likes.indexOf(myActiveUserId), 1)
                     console.log('like removed');
-                }else{
+                } else {
                     products[i].likes.push(myActiveUserId);
                 }
 
@@ -280,11 +305,11 @@ const reactionMethods = {
     averageRating: function (productId) {
         for (let i = 0; i < products.length; i++) {
             if (products[i]._id === productId) {
-                let averageRating =0;
-                for(let j=0;j<products[i].ratings.length;j++){
-                    averageRating+=products[i].ratings[j].rate;
+                let averageRating = 0;
+                for (let j = 0; j < products[i].ratings.length; j++) {
+                    averageRating += products[i].ratings[j].rate;
                 }
-                return averageRating/products[i].ratings.length;
+                return averageRating / products[i].ratings.length;
             }
         }
     }
