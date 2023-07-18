@@ -12,4 +12,5 @@ You can search like that in files. **X.Y**\
 
 ## Days
 [Day 7](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/tree/main/Day-7/day7.js)\
-[Day 8](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-8/day8.js) 
+[Day 8](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-8/day8.js)\
+[Day 9](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-9/day9.js)
