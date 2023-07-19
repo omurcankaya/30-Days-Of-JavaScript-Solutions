@@ -9,7 +9,7 @@ const emptySet = new Set();
 
 // 1.2
 const zeroToTenSet = new Set();
-for(let i =0;i<=10;i++){
+for (let i = 0; i <= 10; i++) {
     zeroToTenSet.add(i);
 }
 console.log(zeroToTenSet);
@@ -23,13 +23,21 @@ zeroToTenSet.clear();
 console.log(zeroToTenSet);
 
 // 1.5
-const array = ['Slm','mrb','nbr','iyi','sen']
+const array = ['Slm', 'mrb', 'nbr', 'iyi', 'sen']
 const stringSet = new Set(array);
 console.log(stringSet);
 
 // 1.6
 const countriesAndCount = new Map();
-countries.forEach((element) => countriesAndCount.set(element,element.length));
+countries.forEach((element) => countriesAndCount.set(element, element.length));
 console.log(countriesAndCount);
 
 // Exercise 2
+
+// 2.1
+const unionSet = new Set([...a, ...b]);
+console.log(unionSet);
+
+// 2.2
+const B = new Set(b);
+console.log(a.filter((number)=> B.has(number)));
