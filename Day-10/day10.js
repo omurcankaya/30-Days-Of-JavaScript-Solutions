@@ -40,7 +40,7 @@ console.log(unionSet);
 
 // 2.2
 const B = new Set(b);
-console.log(a.filter((number)=> B.has(number)));
+console.log(a.filter((number) => B.has(number)));
 
 // 2.3
 // I was not able to understand
