@@ -46,3 +46,5 @@ console.log(a.filter((number) => B.has(number)));
 // I was not able to understand
 
 // Exercise 3
+
+// 3.1
