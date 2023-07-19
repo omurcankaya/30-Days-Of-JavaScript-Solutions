@@ -11,6 +11,7 @@ You can search like that in files. **X.Y**\
 **Exercise 3 Question 2 -> 3.2***
 
 ## Days
-[Day 7](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/tree/main/Day-7/day7.js)\
-[Day 8](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-8/day8.js)\
-[Day 9](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-9/day9.js)
+[Day 7](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/tree/main/Day-07/day7.js)\
+[Day 8](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-08/day8.js)\
+[Day 9](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-09/day9.js)\
+[Day 10](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-10/day10.js)
