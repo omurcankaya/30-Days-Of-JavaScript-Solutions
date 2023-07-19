@@ -48,3 +48,22 @@ console.log(a.filter((number) => B.has(number)));
 // Exercise 3
 
 // 3.1
+const howManyLanguages = new Set();
+countries_data.forEach((country) => country.languages.forEach((language) => howManyLanguages.add(language)));
+console.log(howManyLanguages.size);
+
+// 3.2
+const mostSpokenLanguages = (countries, length) => {
+    const countriesSet = new Set();
+    const result = [];
+    const allLang = [];
+    countries.forEach((country) => country.languages.forEach((language) => allLang.push(language)));
+    for (let language of howManyLanguages) {
+        const lang = allLang.filter((lang) => language === lang);
+        const newItem = { [`${language}`]: lang.length }
+        result.push(newItem);
+    }
+    return result.sort((a, b) => b[Object.keys(b)] - a[Object.keys(a)]).splice(0, length);
+};
+
+console.log(mostSpokenLanguages(countries_data, 5))
