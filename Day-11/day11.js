@@ -65,4 +65,18 @@ console.log(fin, est, sw, den, nor);
 const [{ name, age, skills, scores }] = users;
 console.log(name, age, skills, scores);
 
+
+
 // Exercises 2
+
+// 2.1
+for ({ name, scores, skills, age } of users) {
+    console.log(name, age, skills);
+}
+
+// 2.2
+for ({ name, skills } of users) {
+    if (skills.length < 2) {
+        console.log(name, skills);
+    }
+}
