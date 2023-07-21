@@ -83,7 +83,7 @@ for ({ name, skills } of users) {
 
 // Exercises 3
 
-3.1
+// 3.1
 for ({ name, capital, population, languages } of countries_data) {
     console.log(name, capital, population, languages);
 }
