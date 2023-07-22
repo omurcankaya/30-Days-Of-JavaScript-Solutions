@@ -89,9 +89,11 @@ for ({ name, capital, population, languages } of countries_data) {
 }
 
 // 3.2
+/* I should make these lines to comment line cause it gives me error.
 const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]];
 const [firstName, skills, [, , jsScore, reactScore]] = student;
 console.log(firstName, skills, jsScore, reactScore);
+*/
 
 // 3.3
 const students = [
