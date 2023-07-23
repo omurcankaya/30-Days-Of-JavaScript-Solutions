@@ -45,3 +45,14 @@ console.error('Error 3');
 console.groupEnd();
 
 // Exercise 2
+
+// 2.1
+console.assert(10 > 2 * 10, '10 > 2 * 10 is not true');
+
+// 2.2
+console.warn('HEY, YOU! I am warning you!');
+
+// 2.3
+console.error('It is your mistake!');
+
+// Exercise 3
