@@ -56,3 +56,30 @@ console.warn('HEY, YOU! I am warning you!');
 console.error('It is your mistake!');
 
 // Exercise 3
+
+// 3.1
+console.time('While took');
+let i = 0;
+while (i < 10) {
+    console.log(i);
+    i++;
+}
+console.timeEnd('While took');
+
+console.time('For took');
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
+console.timeEnd('For took');
+
+const items = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.time('For of took');
+for (item of items) {
+    console.log(item);
+}
+console.timeEnd('For of took');
+
+console.time('forEach took');
+items.forEach((item) => console.log(item));
+console.timeEnd('forEach took');
+
