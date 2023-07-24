@@ -10,7 +10,7 @@ class Animal {
     }
 
     getAnimal() {
-        return `Its name is ${this.name}, it is ${this.age} years old, it has got ${this.legs} legs and its color is ${this.color}`;
+        return `Its name is ${this.name}, it is ${this.age} years old, it has got ${this.legs} legs and its color is ${this.color}.`;
     }
 }
 
@@ -25,3 +25,14 @@ console.log(cat);
 console.log(cat.getAnimal())
 
 // Exercise 2
+
+// 2.1
+class Mammals extends Animal{
+    getAnimal(){
+        return super.getAnimal() + 'And Its mammals!';
+    }
+}
+
+const bat = new Mammals('Batman',3,'black',2);
+console.log(bat);
+console.log(bat.getAnimal());
