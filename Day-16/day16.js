@@ -1,12 +1,12 @@
-const skills = ['HTML', 'CSS', 'JS', 'React','Node', 'Python']
+const skills = ['HTML', 'CSS', 'JS', 'React', 'Node', 'Python']
 let age = 250;
 let isMarried = true
 const student = {
-  firstName:'Asabeneh',
-  lastName:'Yetayehe',
-  age:250,
-  isMarried:true,
-  skills:['HTML', 'CSS', 'JS', 'React','Node', 'Python', ]
+    firstName: 'Asabeneh',
+    lastName: 'Yetayehe',
+    age: 250,
+    isMarried: true,
+    skills: ['HTML', 'CSS', 'JS', 'React', 'Node', 'Python',]
 }
 const txt = `{
     "Alex": {
@@ -124,3 +124,24 @@ let stringifyStudent = JSON.stringify(student);
 console.log(stringifyStudent);
 
 // Exercise 2
+
+// 2.1
+let jsonStudent = JSON.stringify(student, ['firstName', 'lastName', 'skills']);
+console.log(jsonStudent);
+
+// Exercise 3
+
+// 3.1
+let parsedJson = JSON.parse(txt);
+console.log(parsedJson);
+
+// 3.2
+let maxSkillPerson = { name: '', countSkill: 0 };
+let mostSkill = new Map(Object.entries(JSON.parse(txt)));
+mostSkill = mostSkill.forEach((value, key, map) => {
+    if (value.skills.length > maxSkillPerson.countSkill) {
+        maxSkillPerson.name = key;
+        maxSkillPerson.countSkill = value.skills.length;
+    }
+})
+console.log(maxSkillPerson);
