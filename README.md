@@ -19,4 +19,5 @@ You can search like that in files. **X.Y**\
 [Day 12](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-12/day12.js)\
 [Day 13](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-13/day13.js)\
 Day 14 doesnt have any exercise!\
-[Day 15](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-15/day15.js)
+[Day 15](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-15/day15.js)\
+[Day 16](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-16/day16.js)
