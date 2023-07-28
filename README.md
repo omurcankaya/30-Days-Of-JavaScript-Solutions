@@ -22,4 +22,5 @@ Day 14 doesnt have any exercise!\
 [Day 15](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-15/day15.js)\
 [Day 16](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-16/day16.js)\
 [Day 17](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-17/day17.js)\
-[Day 18](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-18/day18.js)
+[Day 18](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-18/day18.js)\
+[Day 19](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-19/day19.js)
