@@ -60,3 +60,5 @@ paragraphs.forEach((item, index) => {
     item.id = index;
     item.className = 'testParagraph';
 });
+
+// Exercise 3 is in exercise3.js!
