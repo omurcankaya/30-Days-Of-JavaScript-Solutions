@@ -37,3 +37,26 @@ paragraphs[3].id = 'fourthP';
 paragraphs[3].setAttribute('class','paragraph');
 
 // Exercise 2
+
+// 2.1
+paragraphs[0].style.backgroundColor = 'pink';
+paragraphs[1].style.color = 'purple';
+paragraphs[2].style.fontSize = '30px';
+paragraphs[3].style.borderStyle = 'dotted';
+
+// 2.2
+paragraphs.forEach((item, index) => {
+    if(index%2 === 0){
+        item.style.color = 'green';
+    }else{
+        item.style.color = 'red';
+    }
+
+})
+
+// 2.3
+paragraphs.forEach((item, index) => {
+    item.textContent = `This is ${index+1}. paragraph`;
+    item.id = index;
+    item.className = 'testParagraph';
+});
