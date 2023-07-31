@@ -11,17 +11,18 @@ You can search like that in files. **X.Y**\
 **Exercise 3 Question 2 -> 3.2***
 
 ## Days
-[Day 7](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/tree/main/Day-07/day7.js)\
-[Day 8](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-08/day8.js)\
-[Day 9](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-09/day9.js)\
-[Day 10](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-10/day10.js)\
-[Day 11](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-11/day11.js)\
-[Day 12](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-12/day12.js)\
-[Day 13](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-13/day13.js)\
+[Day 7](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/tree/main/Day-07/day7.js)\
+[Day 8](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-08/day8.js)\
+[Day 9](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-09/day9.js)\
+[Day 10](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-10/day10.js)\
+[Day 11](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-11/day11.js)\
+[Day 12](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-12/day12.js)\
+[Day 13](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-13/day13.js)\
 Day 14 doesnt have any exercise!\
-[Day 15](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-15/day15.js)\
-[Day 16](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-16/day16.js)\
-[Day 17](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-17/day17.js)\
-[Day 18](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-18/day18.js)\
-[Day 19](https://github.com/omurcankaya/30Days-Of-JavaScript-Solutions/blob/main/Day-19/day19.js)\
+[Day 15](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-15/day15.js)\
+[Day 16](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-16/day16.js)\
+[Day 17](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-17/day17.js)\
+[Day 18](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-18/day18.js)\
+[Day 19](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-19/day19.js)\
 Day 20 doesnt have any exercise!\
+[Day 21](https://github.com/omurcankaya/30-Days-Of-JavaScript-Solutions/blob/main/Day-21/day21.js)
